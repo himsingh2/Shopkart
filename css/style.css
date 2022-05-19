@@ -92,16 +92,13 @@ header {
 
 #category-pallet {
     width: 100vw;
-    
+
 }
 
 #category-pallet ul {
-    
-    
+
     display: flex;
-    /* align-content: center; */
     justify-content: center;
-    
     overflow-x: scroll;
     padding-top: 30px;
     padding-bottom: 5px;
@@ -144,8 +141,7 @@ hr {
 .slider {
     margin: 10px 0 10px 0;
     overflow: hidden;
-    /* border-top: 1px solid rgba(37, 37, 37, 0.274);
-    border-bottom: 1px solid rgba(37, 37, 37, 0.274); */
+    
 
 
 }
@@ -171,15 +167,15 @@ hr {
     background-color: rgb(255, 255, 255);
     margin: 10px 0;
     padding: 4px 0;
-    border-top: 1px solid rgba(37, 37, 37, 0.274);
-    border-bottom: 1px solid rgba(37, 37, 37, 0.274);
+    border-top: 1px solid rgba(155, 155, 155, 0.363);
+    border-bottom: 1px solid rgba(155, 155, 155, 0.363);
 
     overflow: auto;
 }
 
 .card-pallet h3 {
     align-self: flex-start;
-    margin-left: 123px;
+    margin-left: 7.5vw;
     padding: 15px 0;
 }
 
@@ -189,7 +185,7 @@ hr {
     align-items: center;
     margin: 5px 10px 20px 10px;
     padding: 5px 10px;
-    
+
 }
 
 .card-items {
@@ -243,9 +239,9 @@ footer {
     display: flex;
     justify-content: center;
     padding: 60px 0 40px 0;
-    /* margin-right: 107px;  */
     
-    
+
+
 
 }
 
@@ -253,9 +249,9 @@ footer {
 .contact-item {
     display: flex;
     justify-content: center;
-    /* margin: 20px 20px; */
+    
     padding: 5px 5px;
-   
+
 }
 
 
@@ -264,14 +260,15 @@ footer {
     padding-bottom: 10px;
 }
 
-.contact-item li, p {
+.contact-item li,
+p {
     list-style: none;
     font-size: small;
-    
-    
+
+
 }
 
-.contact-item a{
+.contact-item a {
 
     text-decoration: none;
     color: rgba(255, 255, 255, 0.764);
@@ -293,13 +290,13 @@ footer {
 
 }
 
-.about{
-    /* width: 15vw; */
+.about {
+    
     width: 50%;
 }
 
-.address{
-    /* width: 20vw; */
+.address {
+    
     width: 50%;
     padding: 0 2%;
     margin: 0 2%;
@@ -316,8 +313,32 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 0;
+    padding: 0 0 30px 0;
 }
+
 .copyright p {
     padding: 10px 20px;
+    align-self: baseline;
+}
+
+
+
+#developer {
+    height: 2.5rem;
+    position: relative;
+    top: 17px;
+    padding: 0 4px;
+}
+
+#dev a {
+
+    text-decoration: none;
+    color: rgb(197, 197, 197) ;
+}
+
+#dev a:active {
+
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(242, 242, 242) ;
 }
