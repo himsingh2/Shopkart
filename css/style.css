@@ -23,7 +23,9 @@ header {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    /* position: fixed; */
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
 
 }
 
@@ -84,29 +86,35 @@ header {
     font-weight: 600;
 }
 
-/* main caontainer
-.container{
-    background-color: rgba(0, 244, 244, 0.571);;
-} */
+
 
 /* category pallet */
 
-#category-pallet ul {
+#category-pallet {
+    width: 100vw;
+    
+}
 
+#category-pallet ul {
+    
+    
     display: flex;
-    align-content: center;
+    /* align-content: center; */
     justify-content: center;
-    flex-direction: row;
-    flex-shrink: initial;
+    
+    overflow-x: scroll;
     padding-top: 30px;
     padding-bottom: 5px;
+    margin-top: 60px;
     background-color: white;
+
+
 
 }
 
 #category-pallet li {
     list-style: none;
-    margin: 0 30px;
+    margin: 0 25px;
     padding: 5px;
 
 }
@@ -143,6 +151,8 @@ hr {
 }
 
 .slider img {
+    width: 90vw;
+    height: 30vh;
     display: block;
     margin: 0 auto;
     overflow: hidden;
@@ -152,34 +162,39 @@ hr {
 /* card pallets */
 
 .card-pallet {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     margin: 10px 0;
     padding: 4px 0;
     border-top: 1px solid rgba(37, 37, 37, 0.274);
     border-bottom: 1px solid rgba(37, 37, 37, 0.274);
+
+    overflow: auto;
 }
 
-.card-pallet h2 {
+.card-pallet h3 {
     align-self: flex-start;
-    margin-left: 120px;
-    padding: 10px 0;
+    margin-left: 123px;
+    padding: 15px 0;
 }
 
 .cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px 10px;
+    margin: 5px 10px 20px 10px;
     padding: 5px 10px;
+    
 }
 
 .card-items {
-    margin: 0 10px;
-    padding: 0 10px;
+    margin: 0 15px;
+    padding: 0 15px;
 }
 
 .cards img {
@@ -243,27 +258,40 @@ footer {
    
 }
 
-#contact1 {
-    width:25%;
-    
-}
 
-#contact2 {
-    width: 50%;
-    
-}
 
 .contact-item h5 {
     padding-bottom: 10px;
 }
 
-.contact-item li, p, a {
+.contact-item li, p {
     list-style: none;
     font-size: small;
-    text-decoration: none;
+    
     
 }
 
+.contact-item a{
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.764);
+}
+
+
+.contact-item a:active {
+    color: rgba(194, 194, 194, 0.748);
+
+}
+
+#contact1 {
+    width: 30%;
+
+}
+
+#contact2 {
+    width: 40%;
+
+}
 
 .about{
     /* width: 15vw; */

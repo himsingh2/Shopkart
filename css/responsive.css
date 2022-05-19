@@ -1,0 +1,61 @@
+@media screen and (max-width:1000px) {
+
+    #category-pallet ul {
+        flex-wrap: wrap;
+    }
+
+
+    .slider img {
+        height: 20vh;
+    }
+
+
+    #contact1 {
+        width: 30%;
+
+    }
+
+    #contact2 {
+        width: 55%;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    #category-pallet {
+        overflow-y: scroll;
+        height: 250px;
+
+    }
+
+    #contact1 {
+        width: 90vw;
+        margin-bottom: 20px;
+
+    }
+
+    #contact2 {
+        width: 90vw;
+
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+
+
+    .about {
+        /* width: 15vw; */
+        width: 50%;
+        padding: 0 2%;
+        margin: 0 2%;
+    }
+
+
+}
